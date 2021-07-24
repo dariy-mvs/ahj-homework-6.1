@@ -1,0 +1,91 @@
+body {
+  color: #999;
+  background-color: rgb(221, 238, 240);
+}
+
+.not-trello {
+  display: flex;
+  justify-content: space-between;
+}
+.col {
+  width: 32%;
+  background-color: rgb(213, 207, 207);
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.col__header_box {
+  display: flex;
+  justify-content: space-between;
+}
+.col__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #000000;
+}
+.col__button {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(159, 200, 201);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.task {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 435px;
+}
+.task__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: #1d1717;
+}
+.task__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #000000;
+}
+.task__del_btn {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(245, 155, 155);
+  color: #ffffff;
+  visibility: hidden;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.task:hover .task__del_btn {
+  visibility: visible;
+}
+.add_task {
+  background-color: rgb(160, 194, 164);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: #1d1717; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text_field {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid rgb(160, 194, 164);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #1d1717; 
+  box-sizing: border-box;
+}
